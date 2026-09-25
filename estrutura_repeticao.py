@@ -1,7 +1,7 @@
 #ESTRUTURA DE REPETIÇÃO
 # Suellen Campos
 
-# 1. contadores (começam em zero - uma caixa vazia para contar)
+# 1. contadores (começam em zero - uma caixa vazia para contar cada pessoa e nao esquecer as outras 49)
 qtd_excelente = 0
 qtd_ruim = 0
 
@@ -24,7 +24,7 @@ for i in range(1, 51):
             if opiniao in [1, 2, 3]:
                 break 
             else:
-                print("⚠️ Opção inválida! Digite apenas 1, 2 ou 3.")
+                print("Opção inválida! Digite apenas 1, 2 ou 3.")
         except ValueError:
             print("️ Erro! Digite apenas números.")
 
